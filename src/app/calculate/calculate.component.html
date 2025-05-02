@@ -1,14 +1,14 @@
 <h2>Konvertering</h2>
 <div class="all">
     <h3>Temperaturmätning</h3>
-<div>
+<div class="flex">
     <label for="fahr">Fahrenheit</label>
     <input type="number" id="fahr" [(ngModel)]="fahr">
     <label for="celc">Celsius</label>
     <input type="number" id="celc" [(ngModel)]="cels">
 </div>
 
-<div>
+<div class="buttons">
     <button (click)="fahrToCels()">Konvertera Fahrenheit till Celsius</button>
     <button (click)="celsToFahr()">Konvertera Celsius till Fahrenheit</button>
 </div>
@@ -19,14 +19,14 @@
 </div>
 <div class="all">
     <h3>Mätenheter</h3>
-<div>
+<div class="flex">
     <label for="meter">Meter</label>
     <input type="number" id="meter" [(ngModel)]="meter">
     <label for="feet">Fot</label>
     <input type="feet" id="feet" [(ngModel)]="feet">
 </div>
 
-<div>
+<div class="buttons">
     <button (click)="meterToFeet()">Konvertera meter till fot</button>
     <button (click)="feetToMeter()">Konvertera fot till meter</button>
 </div>
