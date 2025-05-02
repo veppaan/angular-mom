@@ -19,47 +19,7 @@ body, h2, header, h1{
     align-items: center;
     justify-content: center;
 }
-footer{
-    margin-top: 5em;
-    width: 100%;
-}
-footer p{
-    display: flex;
-    justify-content: center;
-    font-size: 0.8em;
-    margin-top: 0.5em;
-}
-header{
-    margin: 1em 2em;
-}
-#main-header{
-    nav{
-        ul{
-            display: flex;
-            flex-direction: row;
-        }
-    }
-}
-nav{
-    li{
-        list-style-type: none;
-    a{
-        margin: 0.5em;
-        color: rgb(232, 255, 233);
-        text-decoration: none;
-    }
-}
-}
-nav{
-    a:hover{
-        text-decoration: underline;
-    }
-}
-nav{
-    border: 1px solid #495a4a;
-    padding: 0.5em 2em;
-    border-radius: 8px;
-}
+
 h1{
     margin: 1em;
     color: #233224;
