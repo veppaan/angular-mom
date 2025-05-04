@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-
+  dogImage: string = "images/jarvis1.jpg";
 }
